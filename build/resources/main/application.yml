@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  liquibase:
+    change-log: classpath*:migrations/master-changelog.yml
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  type-handlers-package: ru.relex.charity.db.handlers

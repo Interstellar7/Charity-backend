@@ -1,0 +1,100 @@
+databaseChangeLog:
+
+  - changeSet:
+      id: "2020-03-14 21:17:00"
+      author: dmamontov
+      comment: Create role's table
+      changes:
+        - sqlFile:
+            path: 2020-03-14--21-17-00--create-roles-table.sql
+            relativeToChangelogFile: true
+
+  - changeSet:
+      id: "2020-03-14 21:17:05"
+      author: dmamontov
+      comment: Insert user roles
+      changes:
+        - sqlFile:
+            path: 2020-03-14--21-17-05--insert-roles.sql
+            relativeToChangelogFile: true
+
+  - changeSet:
+      id: "2020-03-14 21:17:10"
+      author: dmamontov
+      comment: Create user's table
+      changes:
+        - sqlFile:
+            path: 2020-03-14--21-17-10--create-users-table.sql
+            relativeToChangelogFile: true
+
+  - changeSet:
+      id: "2020-03-14 21:17:20"
+      author: dmamontov
+      comment: Create user role's table
+      changes:
+        - sqlFile:
+            path: 2020-03-14--21-17-20--create-user-roles-table.sql
+            relativeToChangelogFile: true
+
+  - changeSet:
+      id: "2020-03-17 00:05:00"
+      author: avarfolomeev
+      comment: Create ads, categories, ad_statuses, properties, properties_for_ads tables
+      changes:
+        - sqlFile:
+            path: 2020-03-17--00-05-00--create-ads-categories-statuses-properties-tables.sql
+            relativeToChangelogFile: true
+
+  - changeSet:
+      id: "2020-03-25 15:00:00"
+      author: k-izyurov
+      comment: Create auctions, participants, action_history tables
+      changes:
+        - sqlFile:
+            path: 2020-03-23--create-auctions-participants-action_history-tables.sql
+            relativeToChangelogFile: true
+
+  - changeSet:
+      id: "2020-04-05 10:05:00"
+      author: avarfolomeev
+      comment: Add points column for categories
+      changes:
+        - sqlFile:
+            path: 2020-04-05--add-points-for-categories.sql
+            relativeToChangelogFile: true
+
+  - changeSet:
+      id: "2020-04-07 16:46:00"
+      author: k_izyurov
+      comment: modify participants table
+      changes:
+        - sqlFile:
+            path: 2020-04-07--modify-participants-and-auctions-tables.sql
+            relativeToChangelogFile: true
+
+
+  - changeSet:
+      id: "2020-04-09 20:09:00"
+      author: avarfolomeev
+      comment: Add dto for ads and categories
+      changes:
+        - sqlFile:
+            path: 2020-04-09--20-09-00--add-statuses.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: "2020-04-11 12:22:00"
+      author: dmamontov
+      comment: Add users email column
+      changes:
+        - sqlFile:
+            path: 2020-04-11--12-22-00--add-users-email.sql
+            relativeToChangelogFile: true
+
+  - changeSet:
+      id: "2020-04-23 12:20:00"
+      author: avarfolomeev
+      comment: Add default categories
+      changes:
+        - sqlFile:
+            path: 2020-04-23--add-default-categories.sql
+            relativeToChangelogFile: true

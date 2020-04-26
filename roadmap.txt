@@ -1,0 +1,143 @@
+Сервис бесплатной раздачи вещей
+=
+! Исправления и Дополнения приветствуются =)
+
+Веб-приложение для удобной и справедливой раздачи вещей на безвозмездной основе.
+- Регистрация пользователей свободная.
+- Пользователь может создавать неограниченное количество объявлений.
+- Ограничения на участие в раздачах: одновременно пользователь может участвовать как получатель не более чем в 5 раздачах.
+......
+
+Модули системы:
+- AUTH - регистрация, аутентифкация и авторизация пользователей (опционально вход через соцсети)
+- CATALOG - каталог объявлений (упрощенный и расширенный поиск объявлений, списки вещей  по категориям)
+- CABINET - личный кабинет пользователя (создание и управление объявлениями)
+- ADMIN - админка для управления сервисом (настройки, списки, добавление модераторов)
+
+Роли пользователей:
+- Админ - изменение основных настроек, ведение списков(добавление категорий и тп), назначение/отзые модераторов, блокировка/разблокировка пользователей
+- Модератор - модерация объявлений (утверждение/блокировка, редактировать чужие объявления НЕ может)
+- Пользователь - создает/редактирует свое объявление, подает заявки на участие в "раздаче" как получатель
+
+
+1. Таблицы для AUTH
+Users - пользователи
+- user_id
+- first_name
+- last_name
+- email
+- phone
+- password
+// System fields
+- deleted
+- created_at
+- updated_at
+- created_by
+- updated_by
+
+Roles - роли пользователя (Админ, Модератор, Пользователь)
+- role_id
+- name
+
+PermissionsForRoles - разрешения для пользователей (проверка на основе разрешений/пермишенов более правильная, но можно и схалтурить только на ролях)
+- role_id
+- permission_id
+
+Permissions - разрешения
+- permission_id
+- name
+
+Tokens - токены для апи (нужна ли эта таблица?)
+- user_id
+- expired_at
+- token_type_id (auth, refresh)
+- value
+
+TokenTypes - тип токена (api или refresh)
+- token_type_id
+- name
+
+
+
+2. Таблицы для CATALOG
+Ads - объявления
+- ad_id
+- title
+- description
+- category_id
+- ad_status_id
+- expired_at
+// System fields
+- deleted
+- created_at
+- updated_at
+- created_by
+- updated_by
+
+Categories - категории объявлений
+- category_id
+- name
+// System fields
+- deleted
+- created_at
+- updated_at
+- created_by
+- updated_by
+// Nested Set Model - для иерархический структур данных
+- lft
+- lvl
+- rgt
+- root
+- parent_id
+- children
+
+AdStatuses - статусы объявления (новое, на проверке, опубликовано) ! вместо статуса "архив" использовать удаление (deleted=true)
+- status_id
+- name
+
+Properties - свойства вещей из объявлений
+- property_id
+- name
+
+PropertyListForCategories - дефолтный набор свойств по объявлению определенного типа (из категории) (нужна ли эта таблица?)
+- category_id
+- property_id
+- order
+
+PropertiesForAds - конкретные свойства вещи из объявления
+- ad_id
+- property_id
+- value
+
+
+
+3. Таблицы для CABINET
+Participants - участия в раздачах по объявлениям
+- user_id
+- ad_id
+
+Elections - выборы победителя (результаты раздачи)
+- election_id
+- ad_id
+- winner_id
+- election_status_id (new, done, expired)
+// System fields
+- deleted
+- created_at
+- updated_at
+- created_by
+- updated_by
+
+ElectionStatuses - статусы (выбран победитель, победитель забрал/не забрал вещь) (нужна ли эта таблица?)
+- election_status_id
+- name
+
+Ratings - Оценка (получатель оценивает раздающего)
+- rating_id
+- ad_id
+- value
+// System fields
+- created_at
+- updated_at
+- created_by
+- updated_by

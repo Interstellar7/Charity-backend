@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="463cc946-1156-4308-9896-e39da035006d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="charity" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="charity" type="f1a62948:ProjectNode" />
+                <item name="charity" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="charity" type="f1a62948:ProjectNode" />
+                <item name="charity-common" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Konstantin Izyurov" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature_auctions" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1a1b0UIvnoERgzQQRItX7rhG8k7" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.splitter.proportion" value="0.2688391" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CharityApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.relex.charity.rest.CharityApp" />
+      <module name="charity.main" />
+      <option name="VM_PARAMETERS" value="-Dspring.datasource.username=postgres -Dspring.datasource.password=poi999lkj -Dspring.datasource.url=jdbc:postgresql://localhost:5432/charity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.relex.charity.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CharityApp" />
+        <item itemvalue="Application.CharityApp" />
+        <item itemvalue="Application.CharityApp" />
+        <item itemvalue="Application.CharityApp" />
+        <item itemvalue="Application.CharityApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="463cc946-1156-4308-9896-e39da035006d" name="Default Changelist" comment="" />
+      <created>1585905823353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585905823353</updated>
+    </task>
+    <task id="LOCAL-00001" summary="added AuctionController, modified mapper and entity, include control of participants">
+      <created>1586445305775</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586445305775</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added service, DTO's and business-logic for auctions.">
+      <created>1586887394973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586887394973</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added 2 methods to finding auctions and &#10;expanded AuctionDTO.">
+      <created>1587728085945</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587728085945</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added AuctionController, modified mapper and entity, include control of participants" />
+    <MESSAGE value="Added service, DTO's and business-logic for auctions." />
+    <MESSAGE value="Added 2 methods to finding auctions and &#10;expanded AuctionDTO." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 2 methods to finding auctions and &#10;expanded AuctionDTO." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="726" y="224" key="#Auto_Import" timestamp="1586872949227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="726" y="224" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1586872949227" />
+    <state x="814" y="178" key="#Project_Structure" timestamp="1585917291183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="814" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1585917291183" />
+    <state x="676" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585905970846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="676" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585905970846" />
+    <state x="642" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586263750173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="642" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586263750173" />
+    <state x="1044" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1587725211520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1044" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587725211520" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586855805856">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586855805856" />
+    <state x="532" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586443724858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="532" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586443724858" />
+    <state x="614" y="114" width="905" height="865" key="CommitChangelistDialog2" timestamp="1587728083955">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="114" width="905" height="865" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587728083955" />
+    <state x="834" y="323" key="FileChooserDialogImpl" timestamp="1587048026994">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="834" y="323" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587048026994" />
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1587731096138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587731096138" />
+    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1587731096138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587731096138" />
+    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1587731096137">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587731096137" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1587731096138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587731096138" />
+    <state width="1877" height="203" key="GridCell.Tab.1.bottom" timestamp="1587731096138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587731096138" />
+    <state width="1877" height="203" key="GridCell.Tab.1.center" timestamp="1587731096138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587731096138" />
+    <state width="1877" height="203" key="GridCell.Tab.1.left" timestamp="1587731096138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587731096138" />
+    <state width="1877" height="203" key="GridCell.Tab.1.right" timestamp="1587731096138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587731096138" />
+    <state x="540" y="263" key="IDE.errors.dialog" timestamp="1586887446770">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="263" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586887446770" />
+    <state x="53" y="27" width="1845" height="992" key="MergeDialog" timestamp="1586889729541">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="53" y="27" width="1845" height="992" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586889729541" />
+    <state x="848" y="388" width="674" height="415" key="MultipleFileMergeDialog" timestamp="1586889729557">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="848" y="388" width="674" height="415" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586889729557" />
+    <state x="694" y="231" width="797" height="578" key="RollbackChangesDialog" timestamp="1586344143034">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="694" y="231" width="797" height="578" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586344143034" />
+    <state x="485" y="114" width="1194" height="799" key="SettingsEditor" timestamp="1587628538929">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="485" y="114" width="1194" height="799" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587628538929" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587728096699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587728096699" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587628425311">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587628425311" />
+    <state x="630" y="308" key="git4idea.merge.GitPullDialog" timestamp="1587639781127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="630" y="308" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587639781127" />
+    <state x="437" y="202" key="new project wizard" timestamp="1587048277369">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="437" y="202" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587048277369" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1586880782568">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586880782568" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/charity$CharityApp.ic" NAME="CharityApp Coverage Results" MODIFIED="1586422747830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.relex.charity.rest.*</FILTER>
+    </SUITE>
+  </component>
+</project>
